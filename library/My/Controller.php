@@ -13,14 +13,6 @@ class My_Controller extends Jien_Controller {
     	// set title
     	$this->view->title = TITLE;
 
-    	// increase counter
-    	Jien::model("Hit")->save(array(
-    		"user_id"	=>	!empty($_SESSION['user']['user_id']) ? $_SESSION['user']['user_id'] : 0,
-    		"ip"	=>	$_SERVER['REMOTE_ADDR'],
-    		"page"	=>	$_SERVER['REQUEST_URI'],
-    		"request_method"	=>	$_SERVER['REQUEST_METHOD'],
-    	));
-
     }
 
 }
