@@ -1,0 +1,65 @@
+/* font-family:'HelveticaNeueW01-97Blac'; */
+
+html { }
+
+body { font-family: 'myriad-pro'; Arial, sans-serif; background: #F6F6F6; padding: 0; font-weight: 300; font-size: 15px; color: #333; }
+
+a { color: #838667; text-decoration: none; }
+
+a, a:focus, a:hover  { border: none; outline: 0; }
+
+#wrapper { margin: 0 auto; width: 960px; }
+
+header { width: 960px; position: relative; height: 138px; }
+
+#header-line, hr { width: 960px; height: 1px; background: #c5c5c5; clear: both; border: none; }
+
+#header-line { position: absolute; top: 75px; left: 0; }
+
+#logo { display: block; width: 264px; height: 16px; background: url(/img/logo.png) 0 0 no-repeat; position: absolute; left: 0; top: 35px; }
+
+#logo-right { display: block; width: 43px; height: 49px; background: url(/img/logo-octagon.png) 0 0 no-repeat; position: absolute; right: 0; top: 15px;  }
+
+#main-nav { position: absolute; left: 0; top: 88px; list-style-type: none; padding: 0; margin: 0; }
+
+#main-nav li { margin: 0 74px 0 0; padding: 0; float: left; }
+
+#main-nav li a { text-decoration: none; color: #333; font-size: 14px; }
+
+#main-nav li a:hover, #main-nav li.active a { text-decoration: underline; }
+
+#header-social { position: absolute; right: 0; top: 88px; list-style-type: none; padding: 0; margin: 0; }
+
+#header-social li { margin: 0 0 0 3px; padding: 0; float: left; }
+
+#header-social li a { display: block; width: 21px; height: 21px; }
+
+#header-facebook { background: url(/img/facebook.png) 0 0 no-repeat; }
+
+#header-twitter { background: url(/img/twitter.png) 0 0 no-repeat; }
+
+#header-facebook:hover { background: url(/img/facebook.png) -21px 0 no-repeat; }
+
+#header-twitter:hover { background: url(/img/twitter.png) -21px 0 no-repeat; }
+
+#content { width: 960px; }
+
+#home-slider { width: 960px; height: 530px; background: url(/img/slider-shadow.png) center bottom no-repeat; }
+
+#home-features { width: 960px; list-style-type: none; padding: 0; margin: 0; }
+
+#home-features li { padding: 0; margin: 0 10px; float: left; width: 220px; color: black; }
+
+#home-feature-phone { font-weight: bold; font-size: 14px; }
+
+.small-text { font-size: 12px; }
+
+footer { border-top: 1px solid #c5c5c5; margin-top: 30px; padding-top: 30px; padding-bottom: 30px; }
+
+footer div { width: 50%; float: left; }
+
+#copyright { text-align: right; font-size: 11px; line-height: 11px; }
+
+#footer-logo { display: block; width: 149px; height: 10px; background: url(/img/logo-footer.png) 0 0 no-repeat; }
+
+.clear { clear: both; }
