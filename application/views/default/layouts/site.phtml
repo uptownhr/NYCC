@@ -2,21 +2,34 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
+<link rel="stylesheet" href="/css/cleanslate.css" media="all">
+<link rel="stylesheet" href="/css/style.css" media="all">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="//use.typekit.net/xni2rlr.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<link type="text/css" rel="stylesheet" href="http://fast.fonts.com/cssapi/239bc7ca-d63d-43ed-a9c8-59e4d7398d4f.css"/>
+<script type="text/javascript" src="/js/main.js"></script>
 <title><?php echo $this->title; ?></title>
-
-<!--CSS FILES STARTS-->
-
-<!--JS FILES STARTS-->
-
 </head>
 <body>
 
-			<!-- MAIN CONTAINER -->
-			<?php
-				echo $this->layout()->content;
-			?>
-			<!-- MAIN CONTAINER ENDS -->
+<div id="wrapper">
+
+<header>
+	<a href="/" id="logo"></a>
+</header>
+
+<div id="content">
+<?php
+	echo $this->layout()->content;
+?>
+</div><!--#content-->
+
+<footer>
+
+</footer>
+
+</div><!--#wrapper-->
+
 </body>
-<!--BODY ENDS  -->
 </html>
-<!--HTML ENDS  -->
