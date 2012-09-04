@@ -120,12 +120,12 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap{
 	protected function _initDb(){
 
 		// gets our multi db instances
-        $this->bootstrap('multidb');
-        $dbr = $this->getResource('multidb');
+        //$this->bootstrap('multidb');
+        // $dbr = $this->getResource('multidb');
 
         // set to registry, can also get our default db adapter by doing: $db = Zend_Db_Table::getDefaultAdapter();
-        Zend_Registry::set('db', $dbr->getDb('db')); // default db adapter
-        Zend_Registry::set('masterdb', $dbr->getDb('masterdb')); // master db adapter
+        //Zend_Registry::set('db', $dbr->getDb('db')); // default db adapter
+        // Zend_Registry::set('masterdb', $dbr->getDb('masterdb')); // master db adapter
 
         // for time benchmarking
         Zend_Registry::set('timers', array());
