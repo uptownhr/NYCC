@@ -15,54 +15,6 @@ class Jien_Controller extends Zend_Controller_Action {
 			$this->view->user = $this->user = $_SESSION['user'];
 		}
 
-		// activate access control
-		$this->initAcl();
-
-    }
-
-    public function initAcl(){
-    	$acl = new Zend_Acl();
-    	$roles = Jien::model("Role")->orderBy('role.role_id asc')->leftJoin("Role r2", "r2.role_id = role.parent_id", "r2.role as parent_role")->get()->rows();
-		if($roles){
-	    	foreach($roles AS $role){
-	    		$acl->addRole(new Zend_Acl_Role($role['role']), $role['parent_role']);
-	    	}
-		}
-    	$this->acl = $acl;
-    }
-
-    public function hasRole($role, $action = ''){
-
-    	$resource = $this->params('controller');
-    	if(!in_array($resource, $this->_resources)){
-    		$this->acl->add(new Zend_Acl_Resource($resource));
-    		$this->_resources[] = $resource;
-    	}
-
-    	if($action != ''){
-    		$permission = array($action);
-    	}else{
-    		$permission = null;
-    	}
-    	$this->acl->allow($role, $resource, $permission);
-
-    	if(!empty($this->user['role'])){
-    		$user_role = $this->user['role'];
-    	}else{
-    		$user_role = 'guest';
-    	}
-
-    	if($action != ''){
-    		if(!$this->acl->isAllowed($user_role, $resource, $action)){
-				return false;
-			}
-    	}else{
-    		if(!$this->acl->isAllowed($user_role, $resource)){
-				return false;
-			}
-    	}
-
-		return true;
     }
 
     public function setUser($user){
