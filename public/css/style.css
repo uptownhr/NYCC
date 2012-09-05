@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: HelvBold;
-	src: url('../fonts/HelvBold.otf');
+	src: url('http://nycc.yoshimoshi.com/fonts/HelvBold.otf');
 }
 
 body { background: #F6F6F6; padding: 0; font-weight: 300; font-size: 15px; color: #333; }
