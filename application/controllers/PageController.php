@@ -8,6 +8,15 @@ class PageController extends My_Controller {
 
     public function indexAction(){
     }
+    
+    public function workAction(){
+    }
+    
+    public function camerakAction(){
+    }
+    
+    public function companyAction(){
+    }
 
     public function __call($method, $args = array()){
     	$action = substr($method, 0, strlen($method)-6);

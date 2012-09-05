@@ -68,7 +68,7 @@ footer div { width: 50%; float: left; }
 
 fieldset { border: none; padding: 0 0 7px 0; margin: 0; }
 
-h1 { font-family:'HelveticaNeueW01-75Bold'; font-size: 57px; font-weight: 400; letter-spacing: -2px; line-height: 46px; }
+h1 { font-family:'HelveticaNeueW01-75Bold'; font-size: 57px; font-weight: 400; letter-spacing: -2px; line-height: 46px; margin-bottom: 0; }
 
 #content-contact textarea, 
 #content-contact select, 
@@ -107,3 +107,9 @@ input#contact_submit { display: block; border: none; width: 158px; height: 52px;
     width: 500px;
     height: 100px;
 }
+
+#content-company { font-size: 18px; }
+
+.column-left, .column-right { float: left; width: 470px; text-align: justified; }
+
+
