@@ -2,7 +2,9 @@
 
 html { }
 
-body { font-family: 'myriad-pro'; Arial, sans-serif; background: #F6F6F6; padding: 0; font-weight: 300; font-size: 15px; color: #333; }
+body { background: #F6F6F6; padding: 0; font-weight: 300; font-size: 15px; color: #333; }
+
+body, textarea, input, select, td { font-family: 'myriad-pro'; Arial, sans-serif; }
 
 a { color: #838667; text-decoration: none; }
 
@@ -26,7 +28,7 @@ header { width: 960px; position: relative; height: 138px; }
 
 #main-nav li a { text-decoration: none; color: #333; font-size: 14px; }
 
-#main-nav li a:hover, #main-nav li.active a { text-decoration: underline; }
+#main-nav li a:hover, #main-nav li.active a { border-bottom: 1px solid #c5c5c5; padding-bottom: 4px; }
 
 #header-social { position: absolute; right: 0; top: 88px; list-style-type: none; padding: 0; margin: 0; }
 
@@ -63,3 +65,45 @@ footer div { width: 50%; float: left; }
 #footer-logo { display: block; width: 149px; height: 10px; background: url(/img/logo-footer.png) 0 0 no-repeat; }
 
 .clear { clear: both; }
+
+fieldset { border: none; padding: 0 0 7px 0; margin: 0; }
+
+h1 { font-family:'HelveticaNeueW01-75Bold'; font-size: 57px; font-weight: 400; letter-spacing: -2px; line-height: 46px; }
+
+#content-contact textarea, 
+#content-contact select, 
+#content-contact input { border: 1px solid #ccc; background: white; width: 608px; padding: 20px 16px; }
+
+#content-contact textarea { height: 60px; resize: none; }
+
+#content-contact .side-content a { text-decoration: underline; color: #6b6b6b; }
+
+input#contact_submit { display: block; border: none; width: 158px; height: 52px; margin-left: 470px; background: url(/img/inquire-button.png) 0 0 no-repeat; cursor: pointer; margin-top: 28px; }
+
+.inner-content { width: 640px; float: left; margin-right: 50px; }
+
+.side-content { float: left; }
+
+.content { margin-bottom: 25px!important; }
+
+.gray { color: #706E6E; }
+
+.black { color: black }
+
+.placeholder {
+    color: #666666;
+}
+.form ul {
+    list-style: none;
+}
+.form label {
+    display: block;
+    font-weight: bold;
+}
+.form input[type=text] {
+    width: 500px;
+}
+.form textarea {
+    width: 500px;
+    height: 100px;
+}
