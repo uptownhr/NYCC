@@ -43,6 +43,5 @@ class ContactController extends My_Controller {
     			$this->json( 'sent', 200, 'success' );
     		}
     	}
-    	exit;
     }
 }

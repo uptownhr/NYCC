@@ -9,13 +9,13 @@
 	</div>
 	
 	<div class="gallery">
-		<div class="feature"><img src="/img/camera.jpg" alt="" /></div>
+		<div class="feature"><img src="/img/cam1.jpg" alt="" /></div>
 		<ul>
-			<li><a href="#" title=""><img src="/img/camera-th.jpg" alt="" /></a><div class="white-hover"></div></li>
-			<li><a href="#" title=""><img src="/img/camera-th.jpg" alt="" /></a><div class="white-hover"></div></li>
-			<li><a href="#" title=""><img src="/img/camera-th.jpg" alt="" /></a><div class="white-hover"></div></li>
-			<li class="active"><a href="#" title=""><img src="/img/camera-th.jpg" alt="" /></a><div class="white-hover"></div></li>
-			<li><a href="#" title=""><img src="/img/camera-th.jpg" alt="" /></a><div class="white-hover"></div></li>
+			<li class="active"><a href="#" title=""><img src="/img/cam1.jpg" alt="" /></a><div class="white-hover"></div></li>
+			<li><a href="#" title=""><img src="/img/cam2.jpg" alt="" /></a><div class="white-hover"></div></li>
+			<li><a href="#" title=""><img src="/img/cam3.jpg" alt="" /></a><div class="white-hover"></div></li>
+			<li><a href="#" title=""><img src="/img/cam4.jpg" alt="" /></a><div class="white-hover"></div></li>
+			<li><a href="#" title=""><img src="/img/cam5.jpg" alt="" /></a><div class="white-hover"></div></li>
 		</ul>
 	</div>
 	
@@ -24,3 +24,14 @@
 </div><!-- #content-contact -->
 
 <div class="clear"></div>
+
+<script>
+	$('.gallery ul li img').click( function(e){
+		$this = $(this);
+
+		p_active = $('.gallery ul li.active').removeClass('active');
+		$this.parent().parent().addClass('active');
+		
+		$('.gallery .feature img').attr('src', $this.attr('src') );
+	});
+</script>
