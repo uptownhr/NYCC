@@ -14,5 +14,20 @@ class My_Controller extends Jien_Controller {
     	$this->view->title = TITLE;
 
     }
-
+    
+	public function isPost(){
+    	if( $this->_request->getMethod() == "POST" ){
+    		return true;
+    	}else{
+    		return false;
+    	}
+    }
+	
+    public function isEmail($email){
+    	if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    		return true;
+    	}else{
+    		return false;
+    	}
+    }
 }
