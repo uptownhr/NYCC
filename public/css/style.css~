@@ -70,6 +70,8 @@ fieldset { border: none; padding: 0 0 7px 0; margin: 0; }
 
 h1 { font-family:'HelveticaNeueW01-75Bold'; font-size: 57px; font-weight: 400; letter-spacing: -2px; line-height: 46px; margin-bottom: 0; }
 
+.subheading { font-size: 12px; margin-bottom: 26px; }
+
 #content-contact textarea, 
 #content-contact select, 
 #content-contact input { border: 1px solid #ccc; background: white; width: 608px; padding: 20px 16px; }
@@ -110,4 +112,32 @@ input#contact_submit { display: block; border: none; width: 158px; height: 52px;
 
 #content-company { font-size: 18px; }
 
+.column-left, .column-right { float: left; width: 470px; text-align: justify; }
 
+.column-left { margin-right: 20px;  }
+
+.work-column { font-size: 12px; width: 200px; margin-right: 15px; float: left; }
+
+.work-column h2 { margin-top: 0; font-size: 12px; font-weight: 300; margin-bottom: 28px; line-height: 100%; }
+
+.work-column strong { font-size: 14px; font-weight: 400; }
+
+.work-column.last { margin-right: 36px; }
+
+#work-video { float: left; width: 503px; padding-left: 2px; background: url(/img/video-shadow.png) center bottom no-repeat; height: 311px; }
+
+#camera-left { font-size: 14px; line-height: 21px; width: 416px; float: left; margin-right: 37px; float: left; text-align: justify;  }
+
+.gallery { float: left; }
+
+.gallery .feature { width: 505px; padding-left: 2px; height: 290px; background: url(/img/video-shadow.png) center bottom no-repeat; }
+
+.gallery ul { list-style-type: none; padding: 0; margin: 0; }
+
+.gallery ul li { float: left; background: url(/img/th-white-bg.png) center bottom no-repeat; height: 65px; width: 100px; position: relative; }
+
+.gallery ul li a { display: block; height: 90px; width: 100px; }
+
+.gallery ul li:hover a { background: url(/img/gallery-th-shadow.png) center bottom no-repeat; }
+
+.gallery ul li .white-hover { width: 100%; height: 100%; position: absolute; left: 0; top: 0; background: white; opacity: 0.65; }

@@ -12,7 +12,7 @@ class PageController extends My_Controller {
     public function workAction(){
     }
     
-    public function camerakAction(){
+    public function cameraAction(){
     }
     
     public function companyAction(){
