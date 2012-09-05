@@ -2,6 +2,28 @@
 
 class Bootstrap extends Zend_Application_Bootstrap_Bootstrap{
 
+      protected function _initRoutes(){
+      		$router = Zend_Controller_Front::getInstance()->getRouter();
+		$page_route = new Zend_Controller_Router_Route(
+		":page",
+		array(
+			"controller" => "page"
+			)
+		);
+
+		$router->addRoute('page', $page_route);
+
+		$router = Zend_Controller_Front::getInstance()->getRouter();
+		$contact_route = new Zend_Controller_Router_Route(
+		"contact",
+		array(
+			"controller" => "contact"
+			)
+		);
+
+		$router->addRoute('page', $contact_route);
+      }
+
 	protected function _initView(){
 
 		// Initialize view
