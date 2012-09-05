@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="/css/cleanslate.css" media="all">
+<link rel="stylesheet" href="/css/style.css" media="all">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="//use.typekit.net/xni2rlr.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<link type="text/css" rel="stylesheet" href="http://fast.fonts.com/cssapi/239bc7ca-d63d-43ed-a9c8-59e4d7398d4f.css"/>
+<title><?php echo $this->title; ?></title>
+</head>
+<body>
+
+<div id="wrapper">
+
+<header>
+	<a href="/" id="logo"></a>
+	<a href="/" id="logo-right"></a>
+	<div id="header-line"></div>
+	<nav>
+		<ul id="main-nav">
+			<li><a href="/">Home</a></li>
+			<li><a href="/company">Company</a></li>
+			<li><a href="/camera">Camera</a></li>
+			<li><a href="/work">Work</a></li>
+			<li><a href="/contact">Contact</a></li>
+		</ul>
+	</nav>
+	<ul id="header-social">
+		<li id="header-facebook"><a href="/" target="_blank"></a></li>
+		<li id="header-twitter"><a href="/" target="_blank"></a></li>		
+	</ul>
+</header>
+
+<div id="content">
+<?php
+	echo $this->layout()->content;
+?>
+</div><!--#content-->
+
+<div class="clear"></div>
+
+<footer>
+	<div><a href="/" id="footer-logo"></a></div>
+	<div id="copyright">&copy; 2012 New York Camera Company Inc.  | A  B4 Cinema Network Company</div>
+</footer>
+
+</div><!--#wrapper-->
+
+</body>
+</html>
