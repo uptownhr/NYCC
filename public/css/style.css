@@ -1,6 +1,9 @@
 /* font-family:'HelveticaNeueW01-97Blac'; */
 
-html { }
+@font-face {
+	font-family: HelvBold;
+	src: url('../fonts/HelvBold.otf');
+}
 
 body { background: #F6F6F6; padding: 0; font-weight: 300; font-size: 15px; color: #333; }
 
@@ -68,7 +71,7 @@ footer div { width: 50%; float: left; }
 
 fieldset { border: none; padding: 0 0 7px 0; margin: 0; }
 
-h1 { font-family:'HelveticaNeueW01-75Bold'; font-size: 57px; font-weight: 400; letter-spacing: -2px; line-height: 46px; margin-bottom: 0; }
+h1 { font-family:HelvBold; font-size: 57px; font-weight: 400; letter-spacing: -2px; line-height: 46px; margin-bottom: 0; }
 
 .subheading { font-size: 12px; margin-bottom: 26px; }
 
