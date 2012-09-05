@@ -147,4 +147,4 @@ input#contact_submit { display: block; border: none; width: 158px; height: 52px;
 
 .gallery ul li:hover .white-hover, .gallery ul li.active .white-hover { display: none;  }
 
-.gallery ul li img { width: 90px; heigth: 65px; }
+.gallery ul li img { width: 90px; height: 65px; }
