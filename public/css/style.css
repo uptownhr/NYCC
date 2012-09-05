@@ -130,7 +130,7 @@ input#contact_submit { display: block; border: none; width: 158px; height: 52px;
 
 .gallery { float: left; }
 
-.gallery .feature { width: 505px; padding-left: 2px; height: 290px; background: url(/img/video-shadow.png) center bottom no-repeat; }
+.gallery .feature { width: 505px; padding-left: 7px; height: 290px; background: url(/img/video-shadow.png) center bottom no-repeat; }
 
 .gallery ul { list-style-type: none; padding: 0; margin: 0; }
 
