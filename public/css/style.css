@@ -5,7 +5,7 @@
 	src: url('http://nycc.yoshimoshi.com/fonts/HelvBold.otf');
 }
 
-body { background: #F6F6F6; padding: 0; font-weight: 300; font-size: 15px; color: #333; }
+body { background: #F6F6F6; padding: 0; font-weight: 400; font-size: 15px; color: #333; }
 
 body, textarea, input, select, td { font-family: 'myriad-pro'; Arial, sans-serif; }
 
@@ -83,7 +83,7 @@ h1 { font-family:HelvBold; font-size: 57px; font-weight: 400; letter-spacing: -2
 
 #content-contact .side-content a { text-decoration: underline; color: #6b6b6b; }
 
-input#contact_submit { display: block; border: none; width: 158px; height: 52px; margin-left: 470px; background: url(/img/inquire-button.png) 0 0 no-repeat; cursor: pointer; margin-top: 28px; }
+input#contact_submit { display: block; border: none; width: 158px; height: 52px; margin-left: 470px; background: url(/img/inquire-button.jpg) 0 0 no-repeat; cursor: pointer; margin-top: 28px; }
 
 .inner-content { width: 640px; float: left; margin-right: 50px; }
 
