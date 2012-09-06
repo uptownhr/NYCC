@@ -11,11 +11,11 @@
 	<div class="gallery">
 		<div class="feature"><img src="/img/cam1.jpg" alt="" /></div>
 		<ul>
-			<li class="active"><a href="#" title=""><img src="/img/cam1.jpg" alt="" /></a><div class="white-hover"></div></li>
-			<li><a href="#" title=""><img src="/img/cam2.jpg" alt="" /></a><div class="white-hover"></div></li>
-			<li><a href="#" title=""><img src="/img/cam3.jpg" alt="" /></a><div class="white-hover"></div></li>
-			<li><a href="#" title=""><img src="/img/cam4.jpg" alt="" /></a><div class="white-hover"></div></li>
-			<li><a href="#" title=""><img src="/img/cam5.jpg" alt="" /></a><div class="white-hover"></div></li>
+			<li class="active"><a href="#" title=""><img data-img="/img/cam1.jpg" src="/img/camsmll1.jpg" alt="" /></a><div class="white-hover"></div></li>
+			<li><a href="#" title=""><img data-img="/img/cam2.jpg" src="/img/camsmll2.jpg" alt="" /></a><div class="white-hover"></div></li>
+			<li><a href="#" title=""><img data-img="/img/cam3.jpg" src="/img/camsmll3.jpg" alt="" /></a><div class="white-hover"></div></li>
+			<li><a href="#" title=""><img data-img="/img/cam4.jpg" src="/img/camsmll4.jpg" alt="" /></a><div class="white-hover"></div></li>
+			<li><a href="#" title=""><img data-img="/img/cam5.jpg" src="/img/camsmll5.jpg" alt="" /></a><div class="white-hover"></div></li>
 		</ul>
 	</div>
 	
@@ -32,6 +32,6 @@
 		p_active = $('.gallery ul li.active').removeClass('active');
 		$this.parent().parent().addClass('active');
 		
-		$('.gallery .feature img').attr('src', $this.attr('src') );
+		$('.gallery .feature img').attr('src', $this.attr('data-img') );
 	});
 </script>

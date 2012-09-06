@@ -7,7 +7,7 @@ class ContactController extends My_Controller {
     }
 
     public function indexAction(){
-
+    	$this->view->title .= ' | Contact';
     }
 
     public function inquireAction(){

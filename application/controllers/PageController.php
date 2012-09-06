@@ -10,12 +10,15 @@ class PageController extends My_Controller {
     }
     
     public function workAction(){
+    	$this->view->title .= ' | Work';
     }
     
     public function cameraAction(){
+    	$this->view->title .= ' | Equipment';
     }
     
     public function companyAction(){
+    	$this->view->title .= ' | Contact';
     }
 
     public function __call($method, $args = array()){
