@@ -1,0 +1,178 @@
+/* font-family:'HelveticaNeueW01-97Blac'; */
+
+@font-face {
+	font-family: HelvBold;
+	src: url('http://www.newyorkcitycamera.com/fonts/HelvBold.otf');
+}
+
+body { background: #F6F6F6; padding: 0; font-weight: 400; font-size: 15px; color: #333; }
+
+body, textarea, input, select, td { font-family: 'myriad-pro'; Arial, sans-serif; }
+
+a { color: #838667; text-decoration: none; }
+
+a, a:focus, a:hover  { border: none; outline: 0; }
+
+#wrapper { margin: 0 auto; width: 960px; position: relative; }
+
+header { width: 960px; position: relative; height: 138px; }
+
+#header-line, hr { width: 960px; height: 1px; background: #c5c5c5; clear: both; border: none; }
+
+#header-line { position: absolute; top: 75px; left: 0; }
+
+#logo { display: block; width: 264px; height: 16px; background: url(/img/logo.png) 0 0 no-repeat; position: absolute; left: 0; top: 35px; }
+
+#logo-right { display: block; width: 43px; height: 49px; background: url(/img/logo-octagon.png) 0 0 no-repeat; position: absolute; right: 0; top: 15px;  }
+
+#main-nav { position: absolute; left: 0; top: 88px; list-style-type: none; padding: 0; margin: 0; }
+
+#main-nav li { margin: 0 74px 0 0; padding: 0; float: left; }
+
+#main-nav li a { text-decoration: none; color: #333; font-size: 14px; }
+
+#main-nav li a:hover, #main-nav li.active a { border-bottom: 1px solid #c5c5c5; padding-bottom: 4px; }
+
+#header-social { position: absolute; right: 0; top: 88px; list-style-type: none; padding: 0; margin: 0; }
+
+#header-social li { margin: 0 0 0 3px; padding: 0; float: left; }
+
+#header-social li a { display: block; width: 21px; height: 21px; }
+
+#header-facebook { background: url(/img/facebook.png) 0 0 no-repeat; }
+
+#header-twitter { background: url(/img/twitter.png) 0 0 no-repeat; }
+
+#header-facebook:hover { background: url(/img/facebook.png) -21px 0 no-repeat; }
+
+#header-twitter:hover { background: url(/img/twitter.png) -21px 0 no-repeat; }
+
+#content { width: 960px; }
+
+#home-slider { width: 960px; height: 530px; background: url(/img/slider-shadow.png) center bottom no-repeat; position: relative; }
+
+#home-slider-bg { width: 960px; height: 530px; position: absolute; top: 0; left: 0; z-index: 1; }
+
+#home-slider-logo { width: 960px; height: 530px; background: url(/img/logo-splash.png) center center no-repeat; position: absolute; top: 0; left: 0; z-index: 1; }
+
+#home-features { width: 960px; list-style-type: none; padding: 0; margin: 0; }
+
+#home-features li { padding: 0; margin: 0 10px; float: left; width: 220px; color: black; }
+
+#home-feature-phone { font-weight: bold; font-size: 14px; }
+
+.small-text { font-size: 12px; }
+
+footer { border-top: 1px solid #c5c5c5; margin-top: 30px; padding-top: 30px; padding-bottom: 30px; }
+
+footer div { width: 50%; float: left; }
+
+#copyright { text-align: right; font-size: 11px; line-height: 11px; }
+
+#footer-logo { display: block; width: 149px; height: 10px; background: url(/img/logo-footer.png) 0 0 no-repeat; }
+
+.clear { clear: both; }
+
+fieldset { border: none; padding: 0 0 7px 0; margin: 0; }
+
+h1 { font-family:HelvBold; font-size: 57px; font-weight: 400; letter-spacing: -2px; line-height: 46px; margin-bottom: 0; }
+
+h2 { font-size: 40px; margin-bottom: 0; font-family:HelvBold; font-weight: 400; }
+
+h3 { font-size: 20px; margin-bottom: 0; }
+
+.subheading { font-size: 12px; margin-bottom: 26px; margin-top: 0.3em; }
+
+#content-contact textarea, 
+#content-contact select, 
+#content-contact input { border: 1px solid #ccc; background: white; width: 608px; padding: 20px 16px; }
+
+#content-contact textarea { height: 60px; resize: none; }
+
+#content-contact .side-content a { text-decoration: underline; color: #6b6b6b; }
+
+input#contact_submit { display: block; border: none; width: 158px; height: 52px; margin-left: 470px; background: url(/img/inquire-button.jpg) 0 0 no-repeat; cursor: pointer; margin-top: 28px; }
+
+.inner-content { width: 640px; float: left; margin-right: 50px; }
+
+.side-content { float: left; }
+
+.content { margin-bottom: 40px; }
+
+.gray { color: #706E6E; }
+
+.black { color: black }
+
+.placeholder {
+    color: #666666;
+}
+.form ul {
+    list-style: none;
+}
+.form label {
+    display: block;
+    font-weight: bold;
+}
+.form input[type=text] {
+    width: 500px;
+}
+.form textarea {
+    width: 500px;
+    height: 100px;
+}
+
+#content-company { font-size: 18px; }
+
+.column-left, .column-right { float: left; width: 470px; text-align: justify; }
+
+.column-left { margin-right: 20px;  }
+
+.work-column { font-size: 12px; width: 200px; margin-right: 15px; float: left; }
+
+.work-column h2 { margin-top: 0; font-size: 12px; font-weight: 300; margin-bottom: 28px; line-height: 100%; }
+
+.work-column strong { font-size: 14px; font-weight: 400; }
+
+.work-column.last { margin-right: 36px; }
+
+#work-video { float: left; width: 503px; padding-left: 2px; background: url(/img/video-shadow.png) center bottom no-repeat; height: 311px; }
+
+#camera-left { font-size: 14px; line-height: 21px; width: 416px; float: left; margin-right: 39px; float: left; text-align: justify;  }
+
+.gallery { float: left; }
+
+.gallery .feature { width: 498px; padding-left: 7px; height: 290px; background: url(/img/video-shadow.png) center bottom no-repeat; }
+
+.gallery ul { list-style-type: none; padding: 0 ; margin: 0 0 0 2px; }
+
+.gallery ul li { text-align: center; float: left;  height: 65px; width: 100px; position: relative; }
+
+.gallery ul li a { display: block; height: 90px; width: 100px; }
+
+.gallery ul li:hover a { background: url(/img/gallery-th-shadow.png) center bottom no-repeat; }
+
+.gallery ul li .white-hover { width: 90px; height: 65px; position: absolute; left: 5px; top: 0; background: white; opacity: 0.65; padding: 0; margin: 0; }
+
+.gallery ul li:hover .white-hover, .gallery ul li.active .white-hover { display: none;  }
+
+.gallery ul li img { width: 90px; height: 65px; }
+
+.half-column { width: 470px; margin-right: 20px; float: left; font-size: 14px; }
+
+.half-column.last { margin-right: 0; float: left; }
+
+ul.submenu { position: absolute; top: 170px; right: 0; padding: 0; list-style-type: none; }
+
+.submenu li { margin: 0 0 0 20px; float: right; }
+
+.submenu li a { padding: 8px 18px; display: block; background-color: #ccc; color: #8C8985; font-weight: bold; font-style: italic;  }
+
+.submenu li a.hit, .submenu li a:hover { background: #333; color: white; }
+
+.accessories.equip-content { display: none; }
+
+.lenses.equip-content { display: none; }
+
+.equip-content { min-height: 500px; }
+
+.equip-content.accessories h2 { margin: 2em 0 1em; }

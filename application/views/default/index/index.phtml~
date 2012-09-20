@@ -1,0 +1,26 @@
+<div id="home-slider">
+	<div id="home-slider-bg"></div>
+	<div id="home-slider-logo"></div>
+</div>
+<hr style="margin: 0 auto 42px" />
+<ul id="home-features">
+	<li><a href=""><img src="/img/feature1.jpg" alt="" /></a></li>
+	<li>
+		<div style="margin-top:3px; font-size: 14px;">
+		New York City Camera Company Inc.<br />
+		400 West 14th St.<br />
+		New York, NY 10014<br /><br />
+		<span id="home-feature-phone">+ 1 732 895 5409</span>
+		<a class="small-text" href="mailto:info@newyorkcitycamera.com ">info@newyorkcitycamera.com</a>
+		</div>
+	</li>
+	<li><a href="/contact"><img src="/img/feature3.jpg" alt="" /></a></li>
+	<li><a href="/camera"><img src="/img/feature4.png" alt="" /></a></li>
+</ul>
+<script type="text/javascript">
+	var randomnumber=Math.floor(Math.random()*3);
+	randomnumber += 1;
+	background = 'url(/img/splash'+randomnumber+'.jpg) center center no-repeat';
+	alert(background);
+	$('#home-slider-bg').css('background', background);
+</script>
