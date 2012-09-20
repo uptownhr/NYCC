@@ -165,9 +165,19 @@ ul.submenu { position: absolute; top: 170px; right: 0; padding: 0; list-style-ty
 
 .submenu li { margin: 0 0 0 20px; float: right; }
 
-.submenu li a { padding: 8px 18px; display: block; background-color: #ccc; color: #8C8985; font-weight: bold; font-style: italic;  }
+.submenu li a { height: 34px; display: block;  }
 
-.submenu li a.hit, .submenu li a:hover { background: #333; color: white; }
+.submenu li a.accessories { background: url(/img/button-accessories.png) 0 0 no-repeat; width: 110px; }
+
+.submenu li a.accessories:hover, .submenu li a.accessories.hit { background: url(/img/button-accessories.png) -110px 0 no-repeat; }
+
+.submenu li a.lenses { background: url(/img/button-lenses.png) 0 0 no-repeat; width: 85px; }
+
+.submenu li a.lenses:hover, .submenu li a.lenses.hit { background: url(/img/button-lenses.png) -85px 0 no-repeat; }
+
+.submenu li a.camera { background: url(/img/button-camera.png) 0 0 no-repeat; width: 85px; }
+
+.submenu li a.camera:hover, .submenu li a.camera.hit { background: url(/img/button-camera.png) -85px 0 no-repeat; }
 
 .accessories.equip-content { display: none; }
 
@@ -175,4 +185,4 @@ ul.submenu { position: absolute; top: 170px; right: 0; padding: 0; list-style-ty
 
 .equip-content { min-height: 500px; }
 
-.equip-content.accessories h2 { margin: 2em 0 1em; }
+.equip-content.accessories h2 { margin: 1.7em 0 1em; }

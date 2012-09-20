@@ -9,10 +9,11 @@
 	<div class="camera equip-content">
 		<h1>Camera</h1>
 		<p class="subheading">Equipment Rentals</p>
+
+		<h2>ALEXA plus</h2>
+		<p class="subheading">Camera</p>
 	
 		<div class="half-column">
-			<h2>ALEXA plus</h2>
-			<p class="subheading">Camera</p>
 			<p>1 Arri ALEXA Plus Digital Cinema Camera<br />
 			1 Arri ALEXA EVF-1 Electronic Viewfinder<br />
 			1 Arri ALEXA VMB-2 Viewfinder Mounting Bracket<br />

@@ -21,14 +21,14 @@
 		<ul id="main-nav">
 			<li><a href="/">Home</a></li>
 			<li><a href="/company">Company</a></li>
-			<li><a href="/camera">Camera</a></li>
-			<li><a href="/work">Work</a></li>
+			<li><a href="/alexa-plus">Alexa Plus</a></li>
+			<li><a href="/equipment">Equipment</a></li>
 			<li><a href="/contact">Contact</a></li>
 		</ul>
 	</nav>
 	<ul id="header-social">
-		<li id="header-facebook"><a href="/" target="_blank"></a></li>
-		<li id="header-twitter"><a href="/" target="_blank"></a></li>		
+		<li id="header-facebook"><a href="//www.facebook.com/NewYorkCityCameraCompany" target="_blank"></a></li>
+		<li id="header-twitter"><a href="//twitter.com/newyorkcameraco" target="_blank"></a></li>		
 	</ul>
 </header>
 
