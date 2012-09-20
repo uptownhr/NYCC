@@ -13,7 +13,7 @@ a { color: #838667; text-decoration: none; }
 
 a, a:focus, a:hover  { border: none; outline: 0; }
 
-#wrapper { margin: 0 auto; width: 960px; }
+#wrapper { margin: 0 auto; width: 960px; position: relative; }
 
 header { width: 960px; position: relative; height: 138px; }
 
@@ -49,7 +49,11 @@ header { width: 960px; position: relative; height: 138px; }
 
 #content { width: 960px; }
 
-#home-slider { width: 960px; height: 530px; background: url(/img/slider-shadow.png) center bottom no-repeat; }
+#home-slider { width: 960px; height: 530px; background: url(/img/slider-shadow.png) center bottom no-repeat; position: relative; }
+
+#home-slider-bg { width: 960px; height: 530px; position: absolute; top: 0; left: 0; z-index: 1; }
+
+#home-slider-logo { width: 960px; height: 530px; background: url(/img/logo-splash.png) center center no-repeat; position: absolute; top: 0; left: 0; z-index: 1; }
 
 #home-features { width: 960px; list-style-type: none; padding: 0; margin: 0; }
 
@@ -73,7 +77,11 @@ fieldset { border: none; padding: 0 0 7px 0; margin: 0; }
 
 h1 { font-family:HelvBold; font-size: 57px; font-weight: 400; letter-spacing: -2px; line-height: 46px; margin-bottom: 0; }
 
-.subheading { font-size: 12px; margin-bottom: 26px; }
+h2 { font-size: 40px; margin-bottom: 0; font-family:HelvBold; font-weight: 400; }
+
+h3 { font-size: 20px; margin-bottom: 0; }
+
+.subheading { font-size: 12px; margin-bottom: 26px; margin-top: 0.3em; }
 
 #content-contact textarea, 
 #content-contact select, 
@@ -148,3 +156,23 @@ input#contact_submit { display: block; border: none; width: 158px; height: 52px;
 .gallery ul li:hover .white-hover, .gallery ul li.active .white-hover { display: none;  }
 
 .gallery ul li img { width: 90px; height: 65px; }
+
+.half-column { width: 470px; margin-right: 20px; float: left; font-size: 14px; }
+
+.half-column.last { margin-right: 0; float: left; }
+
+ul.submenu { position: absolute; top: 170px; right: 0; padding: 0; list-style-type: none; }
+
+.submenu li { margin: 0 0 0 20px; float: right; }
+
+.submenu li a { padding: 8px 18px; display: block; background-color: #ccc; color: #8C8985; font-weight: bold; font-style: italic;  }
+
+.submenu li a.hit, .submenu li a:hover { background: #333; color: white; }
+
+.accessories.equip-content { display: none; }
+
+.lenses.equip-content { display: none; }
+
+.equip-content { min-height: 500px; }
+
+.equip-content.accessories h2 { margin: 1.7em 0 1em; }

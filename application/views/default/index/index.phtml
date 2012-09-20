@@ -1,5 +1,6 @@
 <div id="home-slider">
-	<img src="/img/slider1.jpg" alt="NYCC" />
+	<div id="home-slider-bg"></div>
+	<div id="home-slider-logo"></div>
 </div>
 <hr style="margin: 0 auto 42px" />
 <ul id="home-features">
@@ -16,3 +17,9 @@
 	<li><a href="/contact"><img src="/img/feature3.jpg" alt="" /></a></li>
 	<li><a href="/camera"><img src="/img/feature4.png" alt="" /></a></li>
 </ul>
+<script type="text/javascript">
+	var randomnumber=Math.floor(Math.random()*3);
+	randomnumber += 1;
+	background = 'url(/img/splash'+randomnumber+'.jpg) center center no-repeat';
+	$('#home-slider-bg').css('background', background);
+</script>

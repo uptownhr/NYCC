@@ -13,7 +13,11 @@ class PageController extends My_Controller {
     	$this->view->title .= ' | Work';
     }
     
-    public function cameraAction(){
+    public function alexaPlusAction(){
+    	$this->view->title .= ' | Alexa Plus';
+    }
+    
+    public function equipmentAction(){
     	$this->view->title .= ' | Equipment';
     }
     
