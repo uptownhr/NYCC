@@ -34,11 +34,11 @@ class ContactController extends My_Controller {
     		if($error){
     			$this->json( array('cause'=>$cause), 400, 'error' );
     		}else{
-    			foreach($params as $key=>$val){
+    			foreach($_REQUEST as $key=>$val){
     				$body .= $key . ':' . $val . '<br>';
     			}
     			
-    			Jien::mail($params['email'],'info@newyorkcitycamera.com',$body, $body);
+				Jien::mail($params['email'],'info@newyorkcitycamera.com',"NYCC - Contact Request", $body, $body);
     			
     			$this->json( 'sent', 200, 'success' );
     		}

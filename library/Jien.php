@@ -514,8 +514,9 @@ class Jien {
 			$config = array(
 	    		'ssl' => 'tls',
 		        'auth' => 'login',
-		        'username' => SMTP_USER,
 		        'password' => SMTP_PASS,
+		        'username' => SMTP_USER,
+				'port' => SMTP_PORT
 		    );
 			$transport = new Zend_Mail_Transport_Smtp(SMTP_HOST, $config);
 
