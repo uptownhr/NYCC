@@ -31,7 +31,7 @@ header { width: 960px; position: relative; height: 138px; }
 
 #main-nav li a { text-decoration: none; color: #333; font-size: 14px; }
 
-#main-nav li a:hover, #main-nav li.active a { padding-bottom: 4px; }
+#main-nav li a:hover, #main-nav li.active a { padding-bottom: 4px; border-bottom: 1px solid #c5c5c5; }
 
 #main-nav li ul { display: none; position: absolute; top: 1.4em; left: 0; z-index: 10; background: url(../img/submenu-bg.png) top center no-repeat; list-style-type: none; padding: 7px 0 0 0; margin: 0; }
 
