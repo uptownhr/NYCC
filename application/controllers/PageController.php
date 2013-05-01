@@ -17,10 +17,6 @@ class PageController extends My_Controller {
     	$this->view->title .= ' | Alexa Plus';
     }
     
-    public function equipmentAction(){
-    	$this->view->title .= ' | Equipment';
-    }
-    
     public function companyAction(){
     	$this->view->title .= ' | Contact';
     }
