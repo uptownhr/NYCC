@@ -96,7 +96,7 @@ h2 { font-size: 40px; margin-bottom: 0; font-family:HelvBold; font-weight: 400; 
 
 h3 { font-size: 20px; margin-bottom: 0; }
 
-.subheading { font-size: 12px; margin-bottom: 26px; margin-top: 0.7em; }
+.subheading { font-size: 12px; margin-bottom: 26px; margin-top: 0.4em; }
 
 #content-contact textarea, 
 #content-contact select, 
@@ -210,6 +210,6 @@ ul.submenu { position: absolute; top: 170px; right: 0; padding: 0; list-style-ty
 
 .submenu li a.monitors:hover, .submenu li a.monitors.hit { background: url(/img/button-monitors.png) -85px 0 no-repeat; }
 
-.equip-content { min-height: 500px; display: none; }
+.equip-content { min-height: 600px; display: none; }
 
 .equip-content.accessories h2 { margin: 1.7em 0 1em; }
