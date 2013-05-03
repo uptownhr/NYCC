@@ -13,14 +13,15 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap{
 
 		$router->addRoute('page', $page_route);
 		
-		$page_route = new Zend_Controller_Router_Route(
-	        ":action",
+		$contact = new Zend_Controller_Router_Route(
+	        "contact",
 	        array(
-	                "controller" => "page"
+	                "controller" => "contact"
 	        )
 		);
 
-		$router->addRoute('equipment', $page_route);
+		$router->addRoute('contact', $contact);
+
 
 
 		$equipment_route = new Zend_Controller_Router_Route(
