@@ -39,9 +39,9 @@ header { width: 960px; position: relative; height: 138px; }
 
 #main-nav li ul li { padding: 0; margin: 0; float: none; }
 
-#main-nav li ul li a { display: block; background: #ccc; width: 120px; padding: 10px 0 11px; text-align: center; margin-bottom: 1px; }
+#main-nav li ul li a { display: block; background: #ccc; width: 120px; padding: 10px 0 11px; text-align: center; margin-bottom: 1px; border: none; }
 
-#main-nav li ul li a:hover { padding: 10px 0 11px; background: #757575; color: #ccc; }
+#main-nav li ul li a:hover { padding: 10px 0 11px; background: #757575; color: #ccc; border: none; }
 
 #main-nav li#main-nav-cameras ul { left: -35px; }
 
@@ -96,7 +96,7 @@ h2 { font-size: 40px; margin-bottom: 0; font-family:HelvBold; font-weight: 400; 
 
 h3 { font-size: 20px; margin-bottom: 0; }
 
-.subheading { font-size: 12px; margin-bottom: 26px; margin-top: 0.4em; }
+.subheading { font-size: 12px; margin-bottom: 26px; margin-top: 0.7em; }
 
 #content-contact textarea, 
 #content-contact select, 
